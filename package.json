@@ -4,9 +4,10 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron:start": "electron ."
   },
-  "main": "background.js",
+  "main": "main.js",
   "dependencies": {
     "crypto-hash": "^2.0.1",
     "vue": "^3.2.30"
@@ -14,10 +15,10 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
     "autoprefixer": "^10.4.2",
-    "electron": "^13.0.0",
+    "electron": "^13.6.9",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.18",
     "vite": "^2.7.2",
-    "vue-cli-plugin-electron-builder": "~2.1.1"
+    "vue-cli-plugin-electron-builder": "^1.4.6"
   }
 }
